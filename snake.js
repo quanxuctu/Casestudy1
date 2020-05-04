@@ -42,7 +42,7 @@ class snake{
 
     draw() {
         for(let i = 0; i < this.cell.length; i++){
-            this.game.context.fillStyle = 'white';
+            this.game.context.fillStyle = '#FF00FF';
             this.game.context.fillRect(this.cell[i].x, this.cell[i].y, this.grid, this.grid);
         }
 
