@@ -1,10 +1,16 @@
-body{
-    background-color: black;
-}
-h1{
-    color: white;
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
-canvas{
+
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
     border: 2px solid white;
 }

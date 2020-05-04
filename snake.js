@@ -37,7 +37,6 @@ class snake{
             this.cell.pop();
         }
         this.catchHandle();
-        //console.log(this.cell);
 
     }
 
